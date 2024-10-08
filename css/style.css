@@ -1,0 +1,150 @@
+:root{
+    --navi-bg         :#1f2937;
+    --blue-bg         :#3b82f6;
+    --lightblue-bg    :#e5e7eb;
+    --text-semi-white :#d9d8d8;
+}
+*{
+    box-sizing: border-box !important;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.bg-navi{
+    background-color: var(--navi-bg);
+
+
+}
+
+.p-3{
+    padding: 1rem;
+}
+.p-5{
+    padding: 5rem;
+}
+.pb-5{
+    padding-bottom: 10rem;
+}
+.my-5{
+    margin-top: 5rem !important;
+    margin-bottom: 5rem !important;
+}
+.mt-3{
+    margin-top: 1.5rem;
+}
+.m-0{
+    margin: 0 !important;
+}
+.bg-navi ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.bg-navi a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+.bg-navi h1,
+.bg-navi h2,
+.bg-navi h3,
+.bg-navi h4,
+.bg-navi h5,
+.bg-navi h6{
+    color: white;
+}
+.bg-navi p{
+    color:  var(--text-semi-white)
+}
+.container{
+    width: 100%;
+}
+
+.d-flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+.col-12{
+    width: 100%;
+} 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn{
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px #2c2c2c;
+    display: block;
+    width: fit-content;
+} 
+.btn-primary{
+    background-color: var(--blue-bg);
+    color : var(--text-semi-white);
+}
+.sign-up{
+    width: 9rem;
+    font-weight: bold;
+    text-align: center;
+}
+.box{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    border: 2px solid var(--blue-bg);
+}
+.text-center{
+    text-align: center;
+}
+
+.light-blue{
+    background-color: var(--lightblue-bg);
+}
+blockquote.thor cite{
+    display: block;
+    text-align: right;
+    font-weight: bolder;
+}
+.call-to-action{
+    background-color: var(--blue-bg);
+    color: var(--text-semi-white);
+    border-radius: 10px;
+}
+.btn-outline-white{
+    color: var(--text-semi-white);
+    border: 2px solid var(--text-semi-white);
+    width: 150px;
+    padding: 1rem;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer{
+    background-color: var(--navi-bg);
+    color: var(--text-semi-white);
+    padding: 2rem;
+}
+@media (min-width:768px) {
+    .container{
+        width: 80%;
+        margin: auto;
+    }
+    
+    .col-md-6{
+        width: 50%;
+    }
+    .px-md-5{
+        padding-right: 5rem;
+        padding-left: 5rem;
+    }
+    .col-md-3{
+        width: 25%;
+    }
+
+}
